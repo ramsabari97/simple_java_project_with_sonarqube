@@ -1,10 +1,10 @@
-package my.simplejavaprojectwithjacoco;
+package my.simplejavaprojectwithsonarqube;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import my.simplejavaprojectwithjacoco.Calculator;
+import my.simplejavaprojectwithsonarqube.Calculator;
 
 public class CalculatorTest {
 	

@@ -1,4 +1,4 @@
-package my.simplejavaprojectwithjacoco;
+package my.simplejavaprojectwithsonarqube;
 
 public class Calculator {
 
