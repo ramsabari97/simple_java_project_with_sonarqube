@@ -6,7 +6,8 @@ public class Calculator {
 
 	public int add(int a, int b)
 	{
-		System.out.println("bug on purpose:"+(a=+b));
+		int c = 1;
+		System.out.println("bug on purpose:"+(c=+b));
 		return a+b;
 	}
 
@@ -29,7 +30,7 @@ public class Calculator {
 	{
 		System.out.println("vulnerability on purpose");
 		SecureRandom sr = new SecureRandom();
-		sr.setSeed(123456L); // Noncompliant
+		sr.setSeed(123456L);
 		return sr.nextInt();
 	}
 	
