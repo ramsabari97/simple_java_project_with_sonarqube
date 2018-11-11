@@ -25,11 +25,11 @@ public class Calculator {
 		return a*b;
 	}
 	
-	public int getRandomNumber()
+/*	public int getRandomNumber()
 	{
 		SecureRandom sr = new SecureRandom();
 		sr.setSeed(123456L); // Noncompliant
 		return sr.nextInt();
-	}
+	}*/
 	
 }
