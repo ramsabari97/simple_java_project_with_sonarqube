@@ -1,7 +1,5 @@
 package my.simplejavaprojectwithsonarqube;
 
-import java.security.SecureRandom;
-
 public class Calculator {
 
 	public int add(int a, int b)
