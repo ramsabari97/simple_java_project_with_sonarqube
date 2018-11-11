@@ -6,8 +6,7 @@ public class Calculator {
 
 	public int add(int a, int b)
 	{
-		int c = 1;
-		System.out.println("bug on purpose:"+(c=+b));
+		System.out.println("bug on purpose:"+(a=+b));
 		return a+b;
 	}
 
